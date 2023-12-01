@@ -61,13 +61,13 @@ if(isset($_POST['deleteStudent']))
     $result = $student->delete($id);
     if($result)
     {
-        $_SESSION['message'] = "Student Added Successfully";
+        $_SESSION['message'] = "Student Delete Successfully";
         header("Location: student-view.php");
         exit(0);
     }
     else
     {
-        $_SESSION['message'] = "Student Not Added";
+        $_SESSION['message'] = "Student Not Deleted";
         header("Location: student-view.php");
         exit(0);
     }

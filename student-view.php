@@ -20,6 +20,7 @@ include_once('StudentController.php');
                 <div class="card">
                     <div class="card-header">
                         <h4>Student View</h4>
+                        <a href="student-add.php" class="btn btn-primary float-end">Add New Data</a>
                     </div>
                     <div class="card-body">
 
@@ -53,7 +54,7 @@ include_once('StudentController.php');
                                                     <td><?= $row['phone'] ?></td>
                                                     <td><?= $row['course'] ?></td>
                                                     <td>
-                                                        <a href="student-edit.php?id=<?=$row['id'];?>" class="btn btn-success">Edit</a>
+                                                        <a href="student-edit.php?id=<?=$row['id'];?>" class="btn btn-warning">Edit</a>
                                                     </td>
                                                     <td>
                                                         <form action="student-code.php" method="POST">

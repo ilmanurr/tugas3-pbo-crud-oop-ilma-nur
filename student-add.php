@@ -24,6 +24,7 @@
                 <div class="card">
                     <div class="card-header">
                         <h4>Student Add</h4>
+                        <a href="student-view.php" class="btn btn-primary float-end">BACK</a>
                     </div>
                     <div class="card-body">
 
@@ -45,7 +46,7 @@
                                 <input type="text" name="phone" required class="form-control" />
                             </div>
                             <div class="mb-3">
-                                <button type="submit" name="save_student" class="btn btn-primary">Save Student</button>
+                                <button type="submit" name="save_student" class="btn btn-success">Save Student</button>
                             </div>
                         </form>
 

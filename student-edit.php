@@ -15,12 +15,13 @@ include_once('StudentController.php');
 
 </head>
 <body>
-<div class="container-fluid px-4">
-        <div class="row mt-4">
+<div class="container mt-4">
+        <div class="row">
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
                         <h4>Student Edit</h4>
+                        <a href="student-view.php" class="btn btn-primary float-end">BACK</a>
                     </div>
                     <div class="card-body">
                         <?php
@@ -54,7 +55,7 @@ include_once('StudentController.php');
                                         <input type="text" name="phone" value="<?=$result['phone']?>" required class="form-control" />
                                     </div>
                                     <div class="mb-3">
-                                        <button type="submit" name="update_student" class="btn btn-primary">Update Student</button>
+                                        <button type="submit" name="update_student" class="btn btn-success">Update Student</button>
                                     </div>
                                 </form>
 

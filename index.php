@@ -9,7 +9,7 @@ include_once('StudentController.php');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP OOPS - Fetch Data from database in php mysql using oops</title>
+    <title>View Data Student</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
@@ -19,7 +19,7 @@ include_once('StudentController.php');
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4>Student View</h4>
+                        <h4>Data Student</h4>
                         <a href="student-add.php" class="btn btn-primary float-end">Add New Data</a>
                     </div>
                     <div class="card-body">

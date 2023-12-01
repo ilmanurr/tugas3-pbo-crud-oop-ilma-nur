@@ -19,7 +19,7 @@ if (isset($_POST['save_student'])) {
 
     if ($result) {
         $_SESSION['message'] = "Student Added Successfully";
-        header("Location: student-view.php");
+        header("Location: index.php");
     } else {
         $_SESSION['message'] = "Not Inserted";
     }
@@ -43,13 +43,13 @@ if(isset($_POST['update_student']))
     if($result)
     {
         $_SESSION['message'] = "Student Added Successfully";
-        header("Location: student-view.php");
+        header("Location: index.php");
         exit(0);
     }
     else
     {
         $_SESSION['message'] = "Student Not Added";
-        header("Location: student-view.php");
+        header("Location: index.php");
         exit(0);
     }
 }
@@ -62,13 +62,13 @@ if(isset($_POST['deleteStudent']))
     if($result)
     {
         $_SESSION['message'] = "Student Delete Successfully";
-        header("Location: student-view.php");
+        header("Location: index.php");
         exit(0);
     }
     else
     {
         $_SESSION['message'] = "Student Not Deleted";
-        header("Location: student-view.php");
+        header("Location: index.php");
         exit(0);
     }
 }

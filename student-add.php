@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PHP OOPS - Insert Data into database in php mysql using oops</title>
+    <title>Add Data Student</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
@@ -23,8 +23,8 @@
                 ?>
                 <div class="card">
                     <div class="card-header">
-                        <h4>Student Add</h4>
-                        <a href="student-view.php" class="btn btn-primary float-end">BACK</a>
+                        <h4>Add Data Student</h4>
+                        <a href="index.php" class="btn btn-primary float-end">BACK</a>
                     </div>
                     <div class="card-body">
 

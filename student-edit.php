@@ -10,7 +10,7 @@ include_once('StudentController.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>PHP OOPS - Edit & Update Data into database in php mysql using oops</title>
+    <title>Edit & Update Data Student</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
@@ -20,8 +20,8 @@ include_once('StudentController.php');
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4>Student Edit</h4>
-                        <a href="student-view.php" class="btn btn-primary float-end">BACK</a>
+                        <h4>Edit & Update Data Student</h4>
+                        <a href="index.php" class="btn btn-primary float-end">BACK</a>
                     </div>
                     <div class="card-body">
                         <?php
